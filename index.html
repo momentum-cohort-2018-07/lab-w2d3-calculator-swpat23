@@ -3,11 +3,14 @@
 
 
 <html>
-   <head> <link rel="stylesheet" href="main.css">  
-          <script src='main.js'></script>
+   <head> 
+    <meta charset="utf-8">   
+    <link rel="stylesheet" href="main.css">  
+    
 </head>
    <body>
 
+<h1>
     <p class ="calculator">
 
         <div id="display" class="display">          
@@ -20,50 +23,53 @@
 <!-- need to add class to (C) button-->
 
         <div> 
-            <button name="1"> 1 </button> 
+            <button id="one" class ="inputButton" name="1" type="submit" value="1"> 1 </button> 
 
-            <button name="submit" type="submit" value="2"> 2 </button>
+            <button id="two" class ="inputButton" name="submit" type="submit" value="2"> 2 </button>
 
-            <button name="submit" type="submit" value="3"> 3 </button>
+            <button id="three" class ="inputButton" name="submit" type="submit" value="3"> 3 </button>
 
-            <button name="submit" type="submit" value="+"> + </button>
+            <button id="plus" class ="inputButton" name="submit" type="submit" value="+"> + </button>
         </div>
 
         <div>
-            <button name="submit" type="submit" value="4"> 4 </button>
+            <button id="four" class ="inputButton" name="submit" type="submit" value="4"> 4 </button>
 
-            <button name="submit" type="submit" value="5"> 5 </button>
+            <button id="five" class ="inputButton" name="submit" type="submit" value="5"> 5 </button>
     
-            <button name="submit" type="submit" value="6"> 6 </button>
+            <button id="six" class ="inputButton" name="submit" type="submit" value="6"> 6 </button>
 
-            <button name="submit" type="submit" value="-"> - </button>
+            <button id="minus" class ="inputButton" name="submit" type="submit" value="-"> - </button>
 
         </div>
 
         <div>
-            <button name="submit" type="submit" value="7"> 7 </button>
+            <button id="seven" class ="inputButton" name="submit" type="submit" value="7"> 7 </button>
 
-            <button name="submit" type="submit" value="8"> 8 </button>
+            <button id="eight" class ="inputButton" name="submit" type="submit" value="8"> 8 </button>
     
-            <button name="submit" type="submit" value="9"> 9 </button>
+            <button id="nine" class ="inputButton" name="submit" type="submit" value="9"> 9 </button>
 
-            <button name="submit" type="submit" value="*"> * </button>
+            <button id="times" class ="inputButton" name="submit" type="submit" value="*"> * </button>
 
         </div>
 
         <div>
-                <button name="submit" type="submit" value="0"> 0 </button>
+                <button id="zero" class ="inputButton" name="submit" type="submit" value="0"> 0 </button>
                 
                 <button name="submit" type="submit" value="C"> C </button>
 
                 <button name="submit" type="submit" value="="> = </button>
     
-                <button name="submit" type="submit" value="/"> / </button>
+                <button id="divide" class ="inputButton" name="submit" type="submit" value="/"> / </button>
 
         </div>
     </p>
+    </h1>
         
       
    </body>
    
+   <script src="main.js" defer></script>
+
 </html>
